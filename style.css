@@ -178,11 +178,11 @@ h2 {
     max-width: 800px;
 }
     
-.project-1 p {
+.project-1 p, .project-3 p {
     margin-left: 40px;
 }
 
-.project-1 {
+.project-1, .project-3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -366,7 +366,7 @@ footer h2 {
         margin: 0;
     }
 
-    .project-1 img, .project-2 img, .project-1, .project-2{
+    .project-1 img, .project-2 img, .project-3 img, .project-1, .project-2, .project-3 {
         display: flex;
         flex-direction: column;
         justify-content: center;
