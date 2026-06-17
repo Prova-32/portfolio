@@ -366,7 +366,7 @@ footer h2 {
         margin: 0;
     }
 
-    .project-1 img, .project-2 img, .project-3 img, .project-4 img, .project-5 img .project-1, .project-2, .project-3, .project-4, .project-5 {
+    .project-1 img, .project-2 img, .project-3 img, .project-4 img, .project-5 img, .project-1, .project-2, .project-3, .project-4, .project-5 {
         display: flex;
         flex-direction: column;
         justify-content: center;
