@@ -178,26 +178,26 @@ h2 {
     max-width: 800px;
 }
     
-.project-1 p, .project-3 p {
+.project-1 p, .project-3 p, .project-5 p {
     margin-left: 40px;
 }
 
-.project-1, .project-3 {
+.project-1, .project-3, .project-5 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 
-.project-2 img {
+.project-2 img, .project-4 img {
     margin-left: 10px;   
 }
 
-.project-2 p {
+.project-2 p, .project-4 p {
     flex: 1;
 }
 
-.project-2 {
+.project-2, .project-4 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -366,7 +366,7 @@ footer h2 {
         margin: 0;
     }
 
-    .project-1 img, .project-2 img, .project-3 img, .project-1, .project-2, .project-3 {
+    .project-1 img, .project-2 img, .project-3 img, .project-4 img, .project-5 img .project-1, .project-2, .project-3, .project-4, .project-5 {
         display: flex;
         flex-direction: column;
         justify-content: center;
